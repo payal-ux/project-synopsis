@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Your content here -->
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Payal Thite</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about-me" class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p>Hello! I'm payal Thite, a passionate and creative web developer with a strong foundation in frontend technologies. I specialize in crafting responsive websites using HTML, CSS, JavaScript, and modern frontend frameworks like React and Bootstrap.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="your-photo.jpg" alt="Your Name" class="img-fluid rounded-circle">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Short description of your first project. Explain what technologies you used and what you learned.</p>
+              <a href="https://project1-link.com" class="btn btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Description of your second project. Talk about the challenges and successes.</p>
+              <a href="https://project2-link.com" class="btn btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="container py-5">
+    <h2 class="text-center mb-4">My Skills</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>HTML/CSS</h4>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%"></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4>JavaScript</h4>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%"></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4>React</h4>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%"></div>
+        </div>
+      </div>
+      <!-- Add more skills with progress bars -->
+    </div>
+  </section>
+
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form action="submit-form.php" method="POST">
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+</body>
+</html>

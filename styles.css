@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+      
